@@ -1,11 +1,8 @@
-w=input().split()
-n=w[0]
-k=w[1]
-arr=[]
+a=raw_input()
+b=raw_input()
+a=a.split()
+b=b.split()
 sum=0
-for i in range(n):
-  x=int(input())
-  arr.append(x)
-for i in range(k):
-  sum=sum+arr[i]
-print(sum)
+for i in range(int(a[1])):
+	sum=sum+int(b[i])
+print sum
