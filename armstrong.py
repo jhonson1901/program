@@ -9,4 +9,4 @@ while usr>0:
 if sum==temp:
     print"yes"
 else:
-    print'no'
+    print"no"
